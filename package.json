@@ -1,1 +1,13 @@
-
+{
+  "name": "discord-daily-facts",
+  "version": "1.0.0",
+  "description": "Daily facts webhook bot on Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
+  }
+}
