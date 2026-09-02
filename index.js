@@ -25,3 +25,6 @@ async function sendDailyFact() {
         console.error("Failed to fetch or dispatch live daily webhook:", error);
     }
 }
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Web server listening on port ${PORT}`);
+});
